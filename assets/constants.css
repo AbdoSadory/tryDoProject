@@ -1,0 +1,59 @@
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --black: #101010;
+  --para-font-18size: 18px;
+}
+@font-face {
+  font-family: "pop-regular";
+  src: url(fonts/dm-sans-font/DmSansRegular-ZVWM3.ttf);
+}
+@font-face {
+  font-family: "pop-medium";
+  src: url(fonts/dm-sans-font/DmSansMedium-Ea9KW.ttf);
+}
+@font-face {
+  font-family: "pop-medium-italic";
+  src: url(fonts/dm-sans-font/DmSansMediumItalic-OVw36.ttf);
+}
+@font-face {
+  font-family: "pop-italic";
+  src: url(fonts/dm-sans-font/DmSansItalic-axW0K.ttf);
+}
+@font-face {
+  font-family: "pop-bold";
+  src: url(fonts/dm-sans-font/DmSansBold-eZ5xm.ttf);
+}
+@font-face {
+  font-family: "pop-bold-italic";
+  src: url(fonts/dm-sans-font/DmSansBoldItalic-Wy01n.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2 all ease-in-out;
+  font-family: pop-regular;
+}
+html {
+  scroll-behavior: smooth;
+}

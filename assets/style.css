@@ -1,0 +1,32 @@
+.hero-section {
+  background-color: var(--black);
+}
+.hero-section-sizing {
+  max-width: 1225px !important;
+}
+.hero-section-header h1,
+.hero-section-header span {
+  background: linear-gradient(145deg, #f81f01, #ee076e);
+  -webkit-background-clip: text;
+  display: inline-block;
+  color: transparent;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 112px;
+}
+.hero-section-details {
+  margin: 25px 0px;
+  padding: 0px;
+}
+.hero-section-details-card {
+  padding: 0px 15px 0px 0px !important;
+}
+.hero-section-details-card-header-container h4 {
+  color: var(--white);
+  font-family: "pop-medium";
+}
+.hero-section-details-card-para-container p {
+  color: var(--gray);
+  font-size: var(--para-font-18size);
+}

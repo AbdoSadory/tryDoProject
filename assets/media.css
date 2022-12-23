@@ -1,0 +1,30 @@
+@media (max-width: 991px) {
+  .hero-section-header {
+    padding: 0px !important;
+  }
+  .hero-section-header h1,
+  .hero-section-header span {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .hero-section-details-card {
+    padding: 15px 15px !important;
+  }
+}
+@media (max-width: 767px) {
+  .hero-section-header h1,
+  .hero-section-header span {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .hero-section-details {
+    margin: 0px !important;
+  }
+}
+@media (max-width: 575px) {
+  .hero-section-header h1,
+  .hero-section-header span {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
