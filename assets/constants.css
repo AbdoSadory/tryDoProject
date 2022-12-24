@@ -4,6 +4,8 @@
   --gray-dark: #343a40;
   --black: #101010;
   --light-black: #191919;
+  --red: #f9004d;
+  --red-gradient: linear-gradient(145deg, #f81f01, #ee076e);
   --para-font-18size: 18px;
 }
 @font-face {
@@ -34,9 +36,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 0.2 all ease-in-out;
+  transition: 0.2 all ease-in-out !important;
   font-family: pop-regular;
 }
 html {
   scroll-behavior: smooth;
 }
+a {
+  color: var(--white);
+}
+/* a:hover {
+  color: unset !important;
+} */
