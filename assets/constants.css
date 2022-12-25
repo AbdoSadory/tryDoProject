@@ -6,6 +6,7 @@
   --light-black: #191919;
   --red: #f9004d;
   --red-gradient: linear-gradient(145deg, #f81f01, #ee076e);
+  --red-gradient-top-bottom: linear-gradient(180deg, red, #ff4a32, transparent);
   --para-font-18size: 18px;
 }
 @font-face {
