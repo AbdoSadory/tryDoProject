@@ -47,3 +47,21 @@ window.addEventListener("scroll", () => {
     toTopArrow.style.display = "none";
   }
 });
+
+const fact1 = document.getElementById("fact-1");
+const fact2 = document.getElementById("fact-2");
+const fact3 = document.getElementById("fact-3");
+
+const counter = (element, limit) => {
+  let maxLimit = 0;
+  setInterval(() => {
+    if (maxLimit > limit) {
+      clearInterval();
+      return;
+    }
+    element.innerText = maxLimit++;
+  }, 1);
+};
+counter(fact1, 199);
+counter(fact2, 575);
+counter(fact3, 69);

@@ -117,6 +117,18 @@
   .works-section-card-case-para {
     width: 115px !important;
   }
+  .facts-section h2 {
+    font-size: 26px;
+  }
+  .facts-container {
+    margin: 30px 0px;
+  }
+  .counter-container {
+    padding: 0px 30px !important;
+  }
+  .counter {
+    font-size: 45px !important;
+  }
 }
 /* ///////////////////////////////////////////////// */
 @media (max-width: 375px) {
@@ -134,5 +146,17 @@
   }
   .services-section-right-card:hover {
     transform: unset !important;
+  }
+  .swiper-pagination {
+    bottom: -60px !important;
+  }
+  .facts-section {
+    padding: 30px 0px 10px;
+  }
+  .counter-container {
+    padding: 0px 0px !important;
+  }
+  .counter-description {
+    font-size: 16px;
   }
 }

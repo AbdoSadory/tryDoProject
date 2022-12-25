@@ -336,6 +336,41 @@
   background-position: center center;
 }
 /* //////////////////////////////////////////////// */
+.facts-section {
+  background-color: var(--light-black);
+  padding: 100px 0px;
+}
+.facts-section h2 {
+  color: var(--white);
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 500;
+}
+.facts-container {
+  margin: 50px 0px;
+}
+.counter-container {
+  padding: 0px 50px !important;
+}
+.counter {
+  font-family: "pop-medium";
+  color: var(--red);
+  font-size: 72px;
+  font-weight: 600 !important;
+  position: relative;
+}
+.counter::after {
+  content: "+";
+  font-size: 40px;
+  position: absolute;
+}
+.counter-description {
+  color: var(--gray);
+  font-family: "pop-medium";
+  font-size: 18px;
+  line-height: 30px;
+}
+/* //////////////////////////////////////////////// */
 .to-top-btn-container {
   display: none;
   position: fixed;
