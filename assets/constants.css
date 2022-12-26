@@ -7,6 +7,12 @@
   --red: #f9004d;
   --red-gradient: linear-gradient(145deg, #f81f01, #ee076e);
   --red-gradient-top-bottom: linear-gradient(180deg, red, #ff4a32, transparent);
+  --pink-gradient-top-bottom: linear-gradient(
+    180deg,
+    #fc004cdd 3%,
+    #fc004d 60%,
+    #000
+  );
   --para-font-18size: 18px;
 }
 @font-face {
