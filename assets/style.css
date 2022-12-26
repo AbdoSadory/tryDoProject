@@ -580,6 +580,107 @@
 .news-section-tag:hover {
   transform: scale(1.1);
 }
+.footer-left-content-para {
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 4px;
+  margin-bottom: 9px;
+}
+/* //////////////////////////////////////////////// */
+footer {
+  background-color: var(--black);
+}
+.footer-left {
+  position: relative;
+  background: var(--red-gradient);
+  margin-top: -80px;
+  height: 570px;
+  border-top-right-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-left::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(/assets/images/10029.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  opacity: 0.5;
+  border-top-right-radius: 6px;
+}
+
+.talk-us {
+  right: 40px;
+  position: absolute;
+  opacity: 0.5;
+  width: 45%;
+  z-index: 3;
+}
+.footer-left-content {
+  position: relative;
+  z-index: 5 !important;
+  width: 80%;
+}
+.footer-left-content-header {
+  color: #fff;
+  font-size: 75px;
+  font-weight: 900;
+  font-family: "Montserrat";
+  line-height: 90px;
+  margin-bottom: 30px;
+}
+.footer-left-content-link {
+  display: block;
+  color: var(--white);
+  border: 2px solid var(--white);
+  font-size: 18px;
+  padding: 13px;
+  text-align: center;
+  width: 184px !important;
+  border-radius: 6px;
+  transition: 0.3s all ease-in-out;
+}
+.footer-left-content-link:hover {
+  background-color: var(--white);
+  color: var(--red);
+  border: 2px solid var(--white);
+  transform: translateY(-5px);
+}
+.footer-right {
+  padding: 50px;
+}
+.quick-link,
+.say-hello {
+  color: #c6c9d8;
+  font-weight: 500;
+  margin-bottom: 30px;
+  opacity: 0.75;
+}
+.quick-link-list,
+.say-hello-list {
+  list-style: none;
+  padding: 0px;
+}
+.quick-link-list li a,
+.say-hello-list li,
+.copy-rights {
+  color: #c6c9d8;
+  opacity: 0.75;
+  transition: 0.3s all ease-in-out;
+}
+.quick-link-list li a:hover,
+.say-hello-list li:hover {
+  color: var(--red);
+}
+.copy-rights {
+  margin-top: 50px;
+}
 /* //////////////////////////////////////////////// */
 .to-top-btn-container {
   display: none;
