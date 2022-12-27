@@ -21,6 +21,12 @@
 }
 /* ///////////////////////////////////////////////// */
 @media (max-width: 991px) {
+  header {
+    padding: 30px;
+  }
+  .navbar-brand-container {
+    width: 25% !important;
+  }
   .hero-section {
     padding: 30px;
   }
@@ -266,8 +272,10 @@
   }
 }
 /* ///////////////////////////////////////////////// */
-/* ///////////////////////////////////////////////// */
 @media (max-width: 375px) {
+  .navbar-brand-container {
+    width: 40% !important;
+  }
   .hero-section {
     padding: 30px 10px;
   }
